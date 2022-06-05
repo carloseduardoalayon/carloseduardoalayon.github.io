@@ -70,3 +70,15 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.12.0
+
+source 'https://rubygems.org'
+
+# if any new gem, say github-pages, is added to the file, run
+#`bundle update github-pages`
+...
+...
+gem "kramdown", ">=2.3.0"
+...
+...
+
+end

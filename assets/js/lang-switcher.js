@@ -40,6 +40,14 @@ function setLanguage(event, lang, savePreference = true) {
 
     // Obtener el diccionario de traducciones para el idioma seleccionado
     const langTranslations = translations[lang];
+    
+    // Si no hay traducciones para ese idioma, no hacer nada más.
+    if (!langTranslations) {
+        console.error(`Traducciones para el idioma '${lang}' no encontradas.`);
+        // Aún así, restauramos el scroll por si acaso.
+        window.scrollTo(0, scrollPosition);
+        return;
+    }
 
     // Actualizar el título de la página
     document.title = langTranslations.pageTitle || document.title;
@@ -47,7 +55,7 @@ function setLanguage(event, lang, savePreference = true) {
     // Actualizar todos los elementos con el atributo data-key
     document.querySelectorAll('[data-key]').forEach(element => {
         const key = element.getAttribute('data-key');
-        if (langTranslations && langTranslations[key]) {
+        if (langTranslations[key]) {
             element.innerHTML = langTranslations[key];
         }
     });

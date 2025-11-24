@@ -20,6 +20,29 @@
 			#header h1 {
 				line-height: 1.3em; /* Reduce el espacio entre las líneas del título principal */
 			}
+
+			/* Estilos para CTA flotante y selector de idioma en móviles */
+			@media screen and (max-width: 736px) {
+				#header {
+					padding-bottom: 100px; /* Añade espacio para evitar que el contenido se solape con el botón flotante */
+				}
+
+				a[data-key="cta_whatsapp"] {
+					position: fixed;
+					bottom: 20px;
+					right: 20px;
+					z-index: 1000; /* Asegura que esté por encima de otros elementos */
+					width: auto; /* Ajusta el ancho automáticamente */
+					padding: 0 1.5em;
+				}
+
+				#lang-selector {
+					position: fixed;
+					top: 15px;
+					right: 20px;
+					z-index: 1001; /* Por encima del botón de WhatsApp */
+				}
+			}
 		</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -27,7 +50,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="#" class="image avatar"><img src="images/avatar-.jpg" alt="Retrato de Carlos Eduardo Alayón Ochoa" /></a>
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="Retrato de Carlos Eduardo Alayón Ochoa" /></a>
 				<p data-key="header_subtitle">📄 CURRÍCULO – Especialista em Marketing (IA / Bilingue)</p>
 				<h1><strong data-key="header_name">Carlos Eduardo Alayón Ochoa</strong><br />
 					<span data-key="header_role">Full-Stack Media Freelancer</span><br />
@@ -225,7 +248,7 @@
 		<!-- Footer -->
 			<footer id="footer"><br>
 				<ul class="icons">
-					<li><a href="https://www.instagram.com/videoalayon/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.instagram.com/krlxalpha/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 					<li><a href="https://www.tiktok.com/@videoalayon" class="icon fa-video-camera" target="_blank" rel="noopener"><span class="label">TikTok</span></a></li>
 					<li><a href="https://www.linkedin.com/in/carloseduardoalayon/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					<li><a href="mailto:carloseduardoalayon@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>

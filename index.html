@@ -12,6 +12,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Ajustes de interlineado */
+			#main p, #main ul li {
+				line-height: 1.6em; /* Puedes probar valores como 1.5em o 1.7em */
+			}
+			#header h1 {
+				line-height: 1.3em; /* Reduce el espacio entre las líneas del título principal */
+			}
+		</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body id="top">
@@ -19,21 +28,14 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="Retrato de Carlos Eduardo Alayón Ochoa" /></a>
-				<p>📄 CURRÍCULO – Especialista em Marketing (IA / Bilingue)</p>
-				<h1><strong>Carlos Eduardo Alayón Ochoa</strong><br />
-					Full-Stack Media Freelancer<br />
-					Tráfego Pago · Agentes de Voz com IA · <br />
-					Automação de Funil · Conteúdo Estratégico</h1>
-				<p>📍 Curitiba, Brasil | Espanhol Nativo | Inglês Avançado (C1)</p>
 				<p data-key="header_subtitle">📄 CURRÍCULO – Especialista em Marketing (IA / Bilingue)</p>
 				<h1><strong data-key="header_name">Carlos Eduardo Alayón Ochoa</strong><br />
 					<span data-key="header_role">Full-Stack Media Freelancer</span><br />
 					<span data-key="header_tags">Tráfego Pago · Agentes de Voz com IA · <br />
 					Automação de Funil · Conteúdo Estratégico</span></h1>
 				<p data-key="header_location">📍 Curitiba, Brasil | Espanhol Nativo | Inglês Avançado (C1)</p>
-				<p>📧 <a href="mailto:carloseduardoalayon@gmail.com">carloseduardoalayon@gmail.com</a><br />
+				<p>� <a href="mailto:carloseduardoalayon@gmail.com">carloseduardoalayon@gmail.com</a><br />
 					📱 <a href="tel:+5541992943809">+55 41 99294-3809</a></p>
-				<p>🌐 <a href="https://carloseduardoalayon.webflow.io" target="_blank" rel="noopener">Portfólio Web</a> | <a href="https://www.linkedin.com/in/carloseduardoalayo/" target="_blank" rel="noopener">LinkedIn</a></p>
 				<p>🌐 <a href="https://carloseduardoalayon.webflow.io" target="_blank" rel="noopener" data-key="header_portfolio">Portfólio Web</a> | <a href="https://www.linkedin.com/in/carloseduardoalayo/" target="_blank" rel="noopener">LinkedIn</a></p>
 				<div id="lang-selector">
 					<a href="#" onclick="setLanguage('es')">ES</a> |
@@ -48,87 +50,87 @@
 				<!-- Perfil -->
 					<section id="perfil">
 						<header class="major">
-							<h2>🧠 Perfil Profissional</h2>
+							<h2 data-key="profile_title">🧠 Perfil Profissional</h2>
 						</header>
-						<p>Sou um profissional de marketing e produtor de mídia com mais de 14 anos de experiência, atuando em criação de conteúdo, edição de vídeo, automação e publicidade digital. Atuo de forma independente em projetos na América Latina, oferecendo soluções que integram criatividade, performance e tecnologia.</p>
-						<p>Nos últimos anos, foquei na criação de campanhas pagas, funis automatizados, produção de conteúdo e configuração de agentes de voz com inteligência artificial (Go High Level). Tenho domínio técnico das ferramentas, mas também da linguagem e da cultura de marketing na América Latina — o que me permite colaborar no treinamento de modelos de IA com realismo, clareza e precisão cultural.</p>
+						<p data-key="profile_p1">Sou um profissional de marketing e produtor de mídia com mais de 14 anos de experiência, atuando em criação de conteúdo, edição de vídeo, automação e publicidade digital. Atuo de forma independente em projetos na América Latina, oferecendo soluções que integram criatividade, performance e tecnologia.</p>
+						<p data-key="profile_p2">Nos últimos anos, foquei na criação de campanhas pagas, funis automatizados, produção de conteúdo e configuração de agentes de voz com inteligência artificial (Go High Level). Tenho domínio técnico das ferramentas, mas também da linguagem e da cultura de marketing na América Latina — o que me permite colaborar no treinamento de modelos de IA com realismo, clareza e precisão cultural.</p>
 					</section>
 
 				<!-- Habilidades -->
 					<section id="habilidades">
 						<header class="major">
-							<h2>✅ Habilidades Relevantes para a Vaga</h2>
+							<h2 data-key="skills_title">✅ Habilidades Relevantes para a Vaga</h2>
 						</header>
 						<ul class="alt">
-							<li>Espanhol Nativo, Inglês Avançado (C1)</li>
-							<li>Experiência prática com campanhas de marketing no Brasil, Colômbia, Venezuela e LATAM</li>
-							<li>Redação técnica e criativa em espanhol e inglês</li>
-							<li>Conhecimento profundo de métricas de marketing (CTR, CPL, ROAS, CAC, LTV)</li>
-							<li>Domínio de ferramentas como Meta Ads, Google Ads, Go High Level, Webflow, CapCut, After Effects</li>
-							<li>Experiência com copywriting, criação de roteiros, funis de vendas e conteúdo educativo</li>
-							<li>Vivência com sistemas de automação, CRM e voice agents com IA</li>
+							<li data-key="skills_li1">Espanhol Nativo, Inglês Avançado (C1)</li>
+							<li data-key="skills_li2">Experiência prática com campanhas de marketing no Brasil, Colômbia, Venezuela e LATAM</li>
+							<li data-key="skills_li3">Redação técnica e criativa em espanhol e inglês</li>
+							<li data-key="skills_li4">Conhecimento profundo de métricas de marketing (CTR, CPL, ROAS, CAC, LTV)</li>
+							<li data-key="skills_li5">Domínio de ferramentas como Meta Ads, Google Ads, Go High Level, Webflow, CapCut, After Effects</li>
+							<li data-key="skills_li6">Experiência com copywriting, criação de roteiros, funis de vendas e conteúdo educativo</li>
+							<li data-key="skills_li7">Vivência com sistemas de automação, CRM e voice agents com IA</li>
 						</ul>
 					</section>
 
 				<!-- Experiência -->
 					<section id="experiencia">
 						<header class="major">
-							<h2>💼 Experiência Profissional</h2>
+							<h2 data-key="experience_title">💼 Experiência Profissional</h2>
 						</header>
 						<article>
-							<h3>🎯 Freelancer – Consultor Full-Stack de Marketing</h3>
-							<p><strong>2022 – Atual</strong></p>
+							<h3 data-key="exp1_title">🎯 Freelancer – Consultor Full-Stack de Marketing</h3>
+							<p><strong data-key="exp1_date">2022 – Atual</strong></p>
 							<ul>
-								<li>Planejamento e execução de campanhas de tráfego pago para negócios locais e infoprodutos</li>
-								<li>Criação de funis automatizados com Go High Level (formulário → ligação por IA → WhatsApp → nurturing)</li>
-								<li>Configuração de agentes de voz com IA em português e espanhol</li>
-								<li>Produção de conteúdo audiovisual com foco em conversão</li>
-								<li>Tradução, adaptação e copywriting de materiais em inglês e espanhol</li>
+								<li data-key="exp1_li1">Planejamento e execução de campanhas de tráfego pago para negócios locais e infoprodutos</li>
+								<li data-key="exp1_li2">Criação de funis automatizados com Go High Level (formulário → ligação por IA → WhatsApp → nurturing)</li>
+								<li data-key="exp1_li3">Configuração de agentes de voz com IA em português e espanhol</li>
+								<li data-key="exp1_li4">Produção de conteúdo audiovisual com foco em conversão</li>
+								<li data-key="exp1_li5">Tradução, adaptação e copywriting de materiais em inglês e espanhol</li>
 							</ul>
 						</article>
 						<article>
-							<h3>📌 Pipe Ramírez – Estratégia Digital e Tráfego Pago</h3>
-							<p><strong>2025</strong></p>
+							<h3 data-key="exp2_title">📌 Pipe Ramírez – Estratégia Digital e Tráfego Pago</h3>
+							<p><strong data-key="exp2_date">2025</strong></p>
 							<ul>
-								<li>Criação e gestão de campanhas de tráfego pago com foco em performance</li>
-								<li>Estratégia digital e consultoria para posicionamento e aquisição de clientes</li>
-								<li>Produção de conteúdos de valor e organização de funis automatizados</li>
+								<li data-key="exp2_li1">Criação e gestão de campanhas de tráfego pago com foco em performance</li>
+								<li data-key="exp2_li2">Estratégia digital e consultoria para posicionamento e aquisição de clientes</li>
+								<li data-key="exp2_li3">Produção de conteúdos de valor e organização de funis automatizados</li>
 							</ul>
 						</article>
 						<article>
-							<h3>📌 Yex Molina – Consultoria de Marca e Web Design</h3>
-							<p><strong>2024</strong></p>
+							<h3 data-key="exp3_title">📌 Yex Molina – Consultoria de Marca e Web Design</h3>
+							<p><strong data-key="exp3_date">2024</strong></p>
 							<ul>
-								<li>Desenvolvimento da identidade visual e estrutura estratégica da marca</li>
-								<li>Design e publicação de site institucional no Webflow</li>
-								<li>Copywriting e narrativa de posicionamento</li>
+								<li data-key="exp3_li1">Desenvolvimento da identidade visual e estrutura estratégica da marca</li>
+								<li data-key="exp3_li2">Design e publicação de site institucional no Webflow</li>
+								<li data-key="exp3_li3">Copywriting e narrativa de posicionamento</li>
 							</ul>
 						</article>
 						<article>
-							<h3>📌 Dwhight Molina – Criação de Conteúdo e Web Design</h3>
-							<p><strong>2023 – 2025</strong></p>
+							<h3 data-key="exp4_title">📌 Dwhight Molina – Criação de Conteúdo e Web Design</h3>
+							<p><strong data-key="exp4_date">2023 – 2025</strong></p>
 							<ul>
-								<li>Planejamento de conteúdo educativo e inspiracional para redes sociais</li>
-								<li>Produção audiovisual, edição e storytelling visual</li>
-								<li>Desenvolvimento de site em Webflow com foco em autoridade e vendas</li>
+								<li data-key="exp4_li1">Planejamento de conteúdo educativo e inspiracional para redes sociais</li>
+								<li data-key="exp4_li2">Produção audiovisual, edição e storytelling visual</li>
+								<li data-key="exp4_li3">Desenvolvimento de site em Webflow com foco em autoridade e vendas</li>
 							</ul>
 						</article>
 						<article>
-							<h3>📌 Aflore – Produtor de Conteúdo</h3>
-							<p><strong>2020 – 2022</strong></p>
+							<h3 data-key="exp5_title">📌 Aflore – Produtor de Conteúdo</h3>
+							<p><strong data-key="exp5_date">2020 – 2022</strong></p>
 							<ul>
-								<li>Produção e edição de vídeos promocionais, institucionais e educacionais</li>
-								<li>Criação de conteúdo animado para campanhas de aquisição</li>
-								<li>Design de conteúdos visuais para redes sociais, vídeos explicativos e landing pages</li>
+								<li data-key="exp5_li1">Produção e edição de vídeos promocionais, institucionais e educacionais</li>
+								<li data-key="exp5_li2">Criação de conteúdo animado para campanhas de aquisição</li>
+								<li data-key="exp5_li3">Design de conteúdos visuais para redes sociais, vídeos explicativos e landing pages</li>
 							</ul>
 						</article>
 						<article>
-							<h3>📌 ECL – Diretor Criativo</h3>
-							<p><strong>2013 – 2016</strong></p>
+							<h3 data-key="exp6_title">📌 ECL – Diretor Criativo</h3>
+							<p><strong data-key="exp6_date">2013 – 2016</strong></p>
 							<ul>
-								<li>Direção de identidade visual para TV e mídias digitais</li>
-								<li>Animação 2D, criação de roteiros e storyboards</li>
-								<li>Gerenciamento completo de projetos de produção audiovisual</li>
+								<li data-key="exp6_li1">Direção de identidade visual para TV e mídias digitais</li>
+								<li data-key="exp6_li2">Animação 2D, criação de roteiros e storyboards</li>
+								<li data-key="exp6_li3">Gerenciamento completo de projetos de produção audiovisual</li>
 							</ul>
 						</article>
 					</section>
@@ -136,52 +138,52 @@
 				<!-- Formação -->
 					<section id="formacao">
 						<header class="major">
-							<h2>🎓 Formação Acadêmica</h2>
+							<h2 data-key="education_title">🎓 Formação Acadêmica</h2>
 						</header>
 						<ul>
-							<li>Congo Films – Produção Cinematográfica | Bogotá, 2019</li>
-							<li>Creactiva – Publicidade Criativa | Madrid, 2009</li>
-							<li>EMPA – Produção Audiovisual | Caracas, 2006 – 2009</li>
-							<li>INCE – Design Gráfico | Caracas, 2003</li>
+							<li data-key="edu_l1">Congo Films – Produção Cinematográfica | Bogotá, 2019</li>
+							<li data-key="edu_l2">Creactiva – Publicidade Criativa | Madrid, 2009</li>
+							<li data-key="edu_l3">EMPA – Produção Audiovisual | Caracas, 2006 – 2009</li>
+							<li data-key="edu_l4">INCE – Design Gráfico | Caracas, 2003</li>
 						</ul>
 					</section>
 
 				<!-- Competências Técnicas -->
 					<section id="competencias">
 						<header class="major">
-							<h2>🛠️ Competências Técnicas</h2>
+							<h2 data-key="tech_title">🛠️ Competências Técnicas</h2>
 						</header>
 						<div class="table-wrapper">
 							<table>
 								<thead>
 									<tr>
-										<th>Área</th>
-										<th>Ferramentas</th>
+										<th data-key="tech_th1">Área</th>
+										<th data-key="tech_th2">Ferramentas</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Edição de Vídeo</td>
+										<td data-key="tech_video_label">Edição de Vídeo</td>
 										<td>Adobe Premiere, CapCut, Final Cut, Davinci Resolve</td>
 									</tr>
 									<tr>
-										<td>Motion Graphics</td>
+										<td data-key="tech_motion_label">Motion Graphics</td>
 										<td>After Effects, Element 3D</td>
 									</tr>
 									<tr>
-										<td>Automação / CRM</td>
+										<td data-key="tech_automation_label">Automação / CRM</td>
 										<td>Go High Level, Zapier, Make</td>
 									</tr>
 									<tr>
-										<td>Web Design</td>
+										<td data-key="tech_web_label">Web Design</td>
 										<td>Webflow, Figma</td>
 									</tr>
 									<tr>
-										<td>Ads / Tráfego</td>
+										<td data-key="tech_ads_label">Ads / Tráfego</td>
 										<td>Meta Ads Manager, Google Ads</td>
 									</tr>
 									<tr>
-										<td>Copy / Conteúdo</td>
+										<td data-key="tech_copy_label">Copy / Conteúdo</td>
 										<td>Copywriting, Storytelling, Roteirização</td>
 									</tr>
 								</tbody>
@@ -192,13 +194,9 @@
 				<!-- Idiomas -->
 					<section id="idiomas">
 						<header class="major">
-							<h2>🌍 Idiomas</h2>
 							<h2 data-key="languages_title">🌍 Idiomas</h2>
 						</header>
 						<ul>
-							<li>Espanhol: Nativo</li>
-							<li>Inglês: Avançado (C1)</li>
-							<li>Português: Intermedio Alto (Intermediário Avançado)</li>
 							<li data-key="lang_es">Espanhol: Nativo</li>
 							<li data-key="lang_en">Inglês: Avançado (C1)</li>
 							<li data-key="lang_pt">Português: Intermedio Alto (Intermediário Avançado)</li>
@@ -208,14 +206,9 @@
 				<!-- Diferenciais -->
 					<section id="diferenciais">
 						<header class="major">
-							<h2>🧩 Diferenciais</h2>
 							<h2 data-key="differentiators_title">🧩 Diferenciais</h2>
 						</header>
 						<ul>
-							<li>✔ Fluente em dois idiomas com experiência real de criação de conteúdo técnico e publicitário</li>
-							<li>✔ Atuação prática em diversos mercados latino-americanos, adaptando linguagem e estratégias</li>
-							<li>✔ Capacidade de sintetizar conceitos complexos de marketing, escrever com clareza técnica e adaptar o tom cultural</li>
-							<li>✔ Familiaridade com ferramentas de IA e automação, como agentes de voz, funis automatizados e CRM</li>
 							<li data-key="diff_l1">✔ Fluente em dois idiomas com experiência real de criação de conteúdo técnico e publicitário</li>
 							<li data-key="diff_l2">✔ Atuação prática em diversos mercados latino-americanos, adaptando linguagem e estratégias</li>
 							<li data-key="diff_l3">✔ Capacidade de sintetizar conceitos complexos de marketing, escrever com clareza técnica e adaptar o tom cultural</li>
@@ -234,7 +227,6 @@
 					<li><a href="https://www.behance.net/carloseduardoalayon/" class="icon fa fa-behance-square" target="_blank" rel="noopener"><span class="label">Behance</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>Tema: <a href="http://html5up.net">HTML5 UP</a></li>
 					<li data-key="footer_theme">Tema: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</footer>

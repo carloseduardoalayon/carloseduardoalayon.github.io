@@ -39,7 +39,8 @@ const translations = {
     "diff_l2": "✔ Actuación práctica en diversos mercados latinoamericanos, adaptando lenguaje y estrategias",
     "diff_l3": "✔ Capacidad para sintetizar conceptos complejos de marketing, escribir con claridad técnica y adaptar el tono cultural",
     "diff_l4": "✔ Familiaridad con herramientas de IA y automatización, como agentes de voz, embudos automatizados y CRM",
-    "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>"
+    "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>",
+    "cta_whatsapp": "Hablemos por WhatsApp"
   },
   "en": {
     "pageTitle": "Resume – Carlos Eduardo Alayón Ochoa",
@@ -81,7 +82,8 @@ const translations = {
     "diff_l2": "✔ Practical experience in various Latin American markets, adapting language and strategies",
     "diff_l3": "✔ Ability to synthesize complex marketing concepts, write with technical clarity, and adapt cultural tone",
     "diff_l4": "✔ Familiarity with AI and automation tools, such as voice agents, automated funnels, and CRM",
-    "footer_theme": "Theme: <a href=\"http://html5up.net\">HTML5 UP</a>"
+    "footer_theme": "Theme: <a href=\"http://html5up.net\">HTML5 UP</a>",
+    "cta_whatsapp": "Chat on WhatsApp"
   },
   "pt-BR": {
     "pageTitle": "Currículo – Carlos Eduardo Alayón Ochoa",
@@ -123,6 +125,7 @@ const translations = {
     "diff_l2": "✔ Atuação prática em diversos mercados latino-americanos, adaptando linguagem e estratégias",
     "diff_l3": "✔ Capacidade de sintetizar conceitos complexos de marketing, escrever com clareza técnica e adaptar o tom cultural",
     "diff_l4": "✔ Familiaridade com ferramentas de IA e automação, como agentes de voz, funis automatizados e CRM",
-    "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>"
+    "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>",
+    "cta_whatsapp": "Fale comigo no WhatsApp"
   }
 };

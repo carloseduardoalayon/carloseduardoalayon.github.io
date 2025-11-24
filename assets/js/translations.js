@@ -35,6 +35,10 @@ const translations = {
     "lang_en": "Inglés: Avanzado (C1)",
     "lang_pt": "Portugués: Intermedio Alto",
     "differentiators_title": "🧩 Diferenciadores",
+    "diff_l1": "✔ Fluido en dos idiomas con experiencia real en la creación de contenido técnico y publicitario",
+    "diff_l2": "✔ Actuación práctica en diversos mercados latinoamericanos, adaptando lenguaje y estrategias",
+    "diff_l3": "✔ Capacidad para sintetizar conceptos complejos de marketing, escribir con claridad técnica y adaptar el tono cultural",
+    "diff_l4": "✔ Familiaridad con herramientas de IA y automatización, como agentes de voz, embudos automatizados y CRM",
     "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>"
   },
   "en": {
@@ -73,6 +77,10 @@ const translations = {
     "lang_en": "English: Advanced (C1)",
     "lang_pt": "Portuguese: Upper Intermediate",
     "differentiators_title": "🧩 Differentiators",
+    "diff_l1": "✔ Fluent in two languages with real experience creating technical and advertising content",
+    "diff_l2": "✔ Practical experience in various Latin American markets, adapting language and strategies",
+    "diff_l3": "✔ Ability to synthesize complex marketing concepts, write with technical clarity, and adapt cultural tone",
+    "diff_l4": "✔ Familiarity with AI and automation tools, such as voice agents, automated funnels, and CRM",
     "footer_theme": "Theme: <a href=\"http://html5up.net\">HTML5 UP</a>"
   },
   "pt-BR": {
@@ -111,6 +119,10 @@ const translations = {
     "lang_en": "Inglês: Avançado (C1)",
     "lang_pt": "Português: Intermedio Alto (Intermediário Avançado)",
     "differentiators_title": "🧩 Diferenciais",
+    "diff_l1": "✔ Fluente em dois idiomas com experiência real de criação de conteúdo técnico e publicitário",
+    "diff_l2": "✔ Atuação prática em diversos mercados latino-americanos, adaptando linguagem e estratégias",
+    "diff_l3": "✔ Capacidade de sintetizar conceitos complexos de marketing, escrever com clareza técnica e adaptar o tom cultural",
+    "diff_l4": "✔ Familiaridade com ferramentas de IA e automação, como agentes de voz, funis automatizados e CRM",
     "footer_theme": "Tema: <a href=\"http://html5up.net\">HTML5 UP</a>"
   }
 };
